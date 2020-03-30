@@ -1,150 +1,568 @@
+
 <!doctype html>
-<html class="no-js" lang="zxx">
+
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Пошаговая инструкция</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="/moneyandroid/img/icon.png">
-
-	<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(61157347, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/61157347" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-	<!-- CSS here -->
-	<link rel="stylesheet" href="/moneyandroid/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/moneyandroid/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="/moneyandroid/css/magnific-popup.css">
-	<link rel="stylesheet" href="/moneyandroid/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/moneyandroid/css/themify-icons.css">
-	<link rel="stylesheet" href="/moneyandroid/css/nice-select.css">
-	<link rel="stylesheet" href="/moneyandroid/css/flaticon.css">
-	<link rel="stylesheet" href="/moneyandroid/css/gijgo.css">
-	<link rel="stylesheet" href="/moneyandroid/css/animate.min.css">
-	<link rel="stylesheet" href="/moneyandroid/css/slicknav.css">
-	<link rel="stylesheet" href="/moneyandroid/css/style.css">
-	<!-- <link rel="stylesheet" href="/moneyandroid/css/responsive.css"> -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Money Android</title>
+  <script src="../../bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+  <link rel="import" href="https://codelabs.developers.google.com/elements/codelab.html">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <style>
+    body {
+      font-family: "Roboto",sans-serif;
+    }
+  </style>
+  
 </head>
+<body unresolved class="fullbleed">
 
-<body>
-	<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-	<!-- Start Sample Area -->
-	<section class="sample-text-area">
-		<div class="container box_1170">
+  <google-codelab title="Money Android"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Google Play Console" duration="1">
 <div dir="ltr" style="text-align: left;" trbidi="on">
-<h2 style="text-align: center;">
-<span style="font-weight: normal;">Пошаговая инструкция:</span></h2>
-<div>
-<span style="font-weight: normal;"><br /></span></div>
-1. Зарегистрировать новую почту Google и Google Play Console: <a href="/moneyandroid/manual/console" target="_blank"><u>Инструкция</u></a><br />
-<br />
-2. Зарегистрировать Google AdMob и создать рекламный блок: <a href="/moneyandroid/manual/admob" target="_blank"><u>Инструкция</u></a><br />
-<div>
-<br />
-<div>
-<br />
-<div style="text-align: center;">
-Дальнейшие шаги проходят под руководством наставника, пишите на: moneyadroid@gmail.com</div>
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<h2 style="border: 0px; box-sizing: inherit; font-family: inherit; font-stretch: inherit; font-style: inherit; font-variant: inherit; line-height: 1.3em; margin: 30px 0px 15px; padding: 0px; vertical-align: baseline;">
+Создаем аккаунт разработчика в Google Play</h2>
 </div>
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+Начнём с Android. Чтобы получить доступ к загрузке своих приложений, нужно зарегистрироваться в Google Play Console. Для этого у вас должен быть Google-аккаунт. Рекомендую заводить не на личный, а создать новый, вдруг будете продавать приложение.</div>
+</div>
+<br />
+<figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div class="andropov_link__title" style="border: 0px; box-sizing: inherit; font-family: inherit; font-stretch: inherit; font-style: inherit; font-variant: inherit; line-height: 26px; margin: 0px 0px 2px; overflow-wrap: break-word; padding: 0px 94px 0px 0px; vertical-align: baseline;">
+</div>
+<a class="andropov_link andropov_link--with_image" href="https://accounts.google.com/" rel="noopener noreferrer" style="border-radius: 4px; border: 1px solid rgb(222, 222, 222) !important; box-sizing: inherit; color: rgb(0, 0, 0) !important; display: block; font: inherit; margin: 0px; max-width: 600px; min-height: 68px; padding: 11px 16px; text-decoration-line: none; vertical-align: baseline;" target="_blank">Вход&nbsp;– Google Аккаунты&nbsp;ACCOUNTS.GOOGLE.COM</a></div>
+</figure><figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--с" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div class="content-image content-image--with_border content-image--wide" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div air-module="module.andropov" class="andropov_image andropov_image--zoomable" data-andropov-type="image" data-image-height="975" data-image-max-height="1500" data-image-max-width="1448" data-image-src="https://leonardo.osnova.io/713dc119-9748-4f63-6b84-a5ce86b9d4da/" data-image-title="​Создание Google-аккаунта" data-image-width="1448" style="border: 1px solid rgb(222, 222, 222); box-sizing: inherit; font: inherit; margin: 0px auto; max-height: 1500px; max-width: 1448px; overflow: hidden; padding: 0px; vertical-align: baseline;">
+<div class="andropov_image__inner" style="background: linear-gradient(90deg, rgb(230, 231, 232), rgb(230, 230, 232)) transparent; border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://leonardo.osnova.io/713dc119-9748-4f63-6b84-a5ce86b9d4da/-/resize/1000/" style="border: 0px; box-sizing: inherit; cursor: zoom-in; display: block; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; visibility: visible; width: 973px;" /></div>
+</div>
+</div>
+</div>
+<div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<br />
+<br />
+<br />
+<figcaption class="content-image-caption" style="border: 0px; box-sizing: inherit; font-family: inherit; font-size: 15px; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 1.45em; margin: 15px 0px 0px; padding: 0px; vertical-align: baseline;"><span class="content-image-caption__title" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px 15px 0px 0px; padding: 0px; vertical-align: baseline;">​Создание Google-аккаунта</span></figcaption></div>
+</figure><br />
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+Нажмите «Создать аккаунт» и выберите, с какой целью регистрируете аккаунт: для себя или для бизнеса.</div>
+</div>
+<br />
+<br />
+<br />
+<figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--с" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div class="content-image content-image--with_border content-image--wide" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div air-module="module.andropov" class="andropov_image andropov_image--zoomable" data-andropov-type="image" data-image-height="939" data-image-max-height="1500" data-image-max-width="1496" data-image-src="https://leonardo.osnova.io/30f5e6dd-0d8c-ae80-e965-d30c2f7e4b6d/" data-image-title="Создание Google-аккаунта" data-image-width="1496" style="border: 1px solid rgb(222, 222, 222); box-sizing: inherit; font: inherit; margin: 0px auto; max-height: 1500px; max-width: 1496px; overflow: hidden; padding: 0px; vertical-align: baseline;">
+<div class="andropov_image__inner" style="background: linear-gradient(90deg, rgb(226, 229, 231), rgb(226, 226, 230)) transparent; border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://leonardo.osnova.io/30f5e6dd-0d8c-ae80-e965-d30c2f7e4b6d/-/resize/1000/" style="border: 0px; box-sizing: inherit; cursor: zoom-in; display: block; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; visibility: visible; width: 973px;" /></div>
+</div>
+</div>
+</div>
+<div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<br />
+<br />
+<br />
+<figcaption class="content-image-caption" style="border: 0px; box-sizing: inherit; font-family: inherit; font-size: 15px; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 1.45em; margin: 15px 0px 0px; padding: 0px; vertical-align: baseline;"><span class="content-image-caption__title" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px 15px 0px 0px; padding: 0px; vertical-align: baseline;">Создание Google-аккаунта</span></figcaption></div>
+</figure><br />
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+Введите свой номер телефона и подтвердите его. Если вы ранее регистрировали аккаунт с помощью этого номера телефона, то Google может запретить его использовать. В таком случае легче всего использовать другой номер.</div>
+</div>
+<br />
+<br />
+<br />
+<figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--b" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div class="content-image content-image--with_border" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div air-module="module.andropov" class="andropov_image andropov_image--zoomable" data-andropov-type="image" data-image-height="728" data-image-max-height="1500" data-image-max-width="1026" data-image-src="https://leonardo.osnova.io/32c4746f-4c50-2381-97ee-56c43e8d874c/" data-image-title="​Создание Google-аккаунта" data-image-width="1026" style="border: 1px solid rgb(222, 222, 222); box-sizing: inherit; font: inherit; margin: 0px; max-height: 1500px; max-width: 1026px; overflow: hidden; padding: 0px; vertical-align: baseline;">
+<div class="andropov_image__inner" style="background: linear-gradient(90deg, rgb(64, 129, 224), rgb(94, 64, 224)) transparent; border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://leonardo.osnova.io/32c4746f-4c50-2381-97ee-56c43e8d874c/-/resize/600/" style="border: 0px; box-sizing: inherit; cursor: zoom-in; display: block; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; visibility: visible; width: 598px;" /></div>
+</div>
+</div>
+</div>
+<div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<br />
+<br />
+<br />
+<figcaption class="content-image-caption" style="border: 0px; box-sizing: inherit; font-family: inherit; font-size: 15px; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 1.45em; margin: 15px 0px 0px; padding: 0px; vertical-align: baseline;"><span class="content-image-caption__title" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px 15px 0px 0px; padding: 0px; vertical-align: baseline;">​Создание Google-аккаунта</span></figcaption></div>
+</figure><br />
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+Заполните анкету и нажимайте кнопку «Далее».</div>
+</div>
+<br />
+<br />
+<br />
+<figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--b" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div class="content-image content-image--with_border" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div air-module="module.andropov" class="andropov_image andropov_image--zoomable" data-andropov-type="image" data-image-height="686" data-image-max-height="1500" data-image-max-width="1041" data-image-src="https://leonardo.osnova.io/47321c04-da84-f53f-39db-c595c68f78b8/" data-image-title="Создание Google-аккаунта" data-image-width="1041" style="border: 1px solid rgb(222, 222, 222); box-sizing: inherit; font: inherit; margin: 0px; max-height: 1500px; max-width: 1041px; overflow: hidden; padding: 0px; vertical-align: baseline;">
+<div class="andropov_image__inner" style="background: linear-gradient(90deg, rgb(218, 222, 223), rgb(218, 219, 223)) transparent; border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://leonardo.osnova.io/47321c04-da84-f53f-39db-c595c68f78b8/-/resize/600/" style="border: 0px; box-sizing: inherit; cursor: zoom-in; display: block; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; visibility: visible; width: 598px;" /></div>
+</div>
+</div>
+</div>
+<div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<br />
+<br />
+<br />
+<figcaption class="content-image-caption" style="border: 0px; box-sizing: inherit; font-family: inherit; font-size: 15px; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 1.45em; margin: 15px 0px 0px; padding: 0px; vertical-align: baseline;"><span class="content-image-caption__title" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px 15px 0px 0px; padding: 0px; vertical-align: baseline;">Создание Google-аккаунта</span></figcaption></div>
+</figure><br />
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+Примите пользовательское соглашение, и ваш аккаунт готов.<br />
+Можно переходить по ссылке на <a href="https://play.google.com/apps/publish/signup" target="_blank">Google Play Console</a></div>
+</div>
+<br />
+<br />
+<br />
+<figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--с" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div class="content-image content-image--with_border content-image--wide" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div air-module="module.andropov" class="andropov_image andropov_image--zoomable" data-andropov-type="image" data-image-height="1014" data-image-max-height="1500" data-image-max-width="1794" data-image-src="https://leonardo.osnova.io/44d18105-19bd-7c49-13e5-2da3dc7cc3ea/" data-image-title="Регистрация в Google Play Console" data-image-width="1794" style="border: 1px solid rgb(222, 222, 222); box-sizing: inherit; font: inherit; margin: 0px auto; max-height: 1500px; max-width: 1794px; overflow: hidden; padding: 0px; vertical-align: baseline;">
+<div class="andropov_image__inner" style="background: linear-gradient(90deg, rgb(93, 116, 128), rgb(92, 94, 128)) transparent; border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://leonardo.osnova.io/44d18105-19bd-7c49-13e5-2da3dc7cc3ea/-/resize/1000/" style="border: 0px; box-sizing: inherit; cursor: zoom-in; display: block; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; visibility: visible; width: 973px;" /></div>
+</div>
+</div>
+</div>
+<div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<br />
+<br />
+<br />
+<figcaption class="content-image-caption" style="border: 0px; box-sizing: inherit; font-family: inherit; font-size: 15px; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 1.45em; margin: 15px 0px 0px; padding: 0px; vertical-align: baseline;"><span class="content-image-caption__title" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px 15px 0px 0px; padding: 0px; vertical-align: baseline;">Регистрация в Google Play Console</span></figcaption></div>
+</figure><br />
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+Примите пользовательское соглашение.</div>
+</div>
+<br />
+<br />
+<br />
+<figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--с" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div class="content-image content-image--with_border content-image--wide" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div air-module="module.andropov" class="andropov_image andropov_image--zoomable" data-andropov-type="image" data-image-height="1001" data-image-max-height="1500" data-image-max-width="1774" data-image-src="https://leonardo.osnova.io/507c5c6b-0687-aa3b-ead8-948dc52f8f06/" data-image-title="​Регистрация в Google Play Console" data-image-width="1774" style="border: 1px solid rgb(222, 222, 222); box-sizing: inherit; font: inherit; margin: 0px auto; max-height: 1500px; max-width: 1774px; overflow: hidden; padding: 0px; vertical-align: baseline;">
+<div class="andropov_image__inner" style="background: linear-gradient(90deg, rgb(242, 242, 241), rgb(241, 242, 241)) transparent; border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://leonardo.osnova.io/507c5c6b-0687-aa3b-ead8-948dc52f8f06/-/resize/1000/" style="border: 0px; box-sizing: inherit; cursor: zoom-in; display: block; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; visibility: visible; width: 973px;" /></div>
+</div>
+</div>
+</div>
+<div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<br />
+<br />
+<br />
+<figcaption class="content-image-caption" style="border: 0px; box-sizing: inherit; font-family: inherit; font-size: 15px; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 1.45em; margin: 15px 0px 0px; padding: 0px; vertical-align: baseline;"><span class="content-image-caption__title" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px 15px 0px 0px; padding: 0px; vertical-align: baseline;">​Регистрация в Google Play Console</span></figcaption></div>
+</figure><br />
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+И переходите к оплате. Удовольствие иметь аккаунт разработчика в Google стоит $25, платится один раз и навсегда.</div>
+</div>
+<br />
+<br />
+<br />
+<figure style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 30px 0px; padding: 0px; vertical-align: baseline;"><div class="layout--с" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div class="content-image content-image--with_border content-image--wide" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<div air-module="module.andropov" class="andropov_image andropov_image--zoomable" data-andropov-type="image" data-image-height="981" data-image-max-height="1500" data-image-max-width="1649" data-image-src="https://leonardo.osnova.io/bf479caf-713f-59ae-3ee5-7445ddecda9c/" data-image-title="​Регистрация в Google Play Console" data-image-width="1649" style="border: 1px solid rgb(222, 222, 222); box-sizing: inherit; font: inherit; margin: 0px auto; max-height: 1500px; max-width: 1649px; overflow: hidden; padding: 0px; vertical-align: baseline;">
+<div class="andropov_image__inner" style="background: linear-gradient(90deg, rgb(51, 52, 53), rgb(51, 51, 52)) transparent; border: 0px; box-sizing: inherit; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://leonardo.osnova.io/bf479caf-713f-59ae-3ee5-7445ddecda9c/-/resize/1000/" style="border: 0px; box-sizing: inherit; display: block; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; visibility: visible; width: 973px;" /></div>
+</div>
+</div>
+</div>
+<div class="layout--a" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<br />
+<br />
+<br />
+<figcaption class="content-image-caption" style="border: 0px; box-sizing: inherit; font-family: inherit; font-size: 15px; font-stretch: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 1.45em; margin: 15px 0px 0px; padding: 0px; vertical-align: baseline;"><span class="content-image-caption__title" style="border: 0px; box-sizing: inherit; font: inherit; margin: 0px 15px 0px 0px; padding: 0px; vertical-align: baseline;">​Регистрация в Google Play Console</span></figcaption></div>
+</figure><br />
+<div class="layout--a" style="background-color: white; border: 0px; box-sizing: inherit; font-family: Roboto, Tahoma; font-size: 18px; font-stretch: inherit; font-variant-east-asian: inherit; font-variant-numeric: inherit; line-height: inherit; margin: 0px auto; padding: 0px; vertical-align: baseline; width: 600px;">
+<div style="border: 0px; box-sizing: inherit; font: inherit; margin-bottom: 15px; margin-top: 15px; padding: 0px; vertical-align: baseline;">
+После оплаты у вас появится доступ к Google Play Console и можно будет загружать приложение.</div>
+</div>
+</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="AdMob" duration="2">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+<span style="font-size: large;">
+Регистрируем Google AdMob и создаём рекламный блок</span></h3>
 <div>
-<div style="text-align: center;">
-(с почты указанной при покупке) вашу страницу ВКонтакте</div>
-<div style="text-align: center;">
+<span style="font-size: large;">Ничего особо сложного нет, но всё же кратко.</span><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">1. Переходим на официальный сайт AdMob для начала регистрации аккаунта, по ссылке <a href="https://apps.admob.com/admob/signup?hl=ru">https://apps.admob.com/admob/signup?hl=ru</a></span><br />
+<span style="font-size: large;"><br /></span>
+<a href="https://1.bp.blogspot.com/-4RB9RuM_tSE/V4ElBOLGB2I/AAAAAAAABT0/qKvVm789SBQmNjvcCYnG1u3NEVNXjFjhgCLcB/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA.PNG"><span style="font-size: large;"><img border="0" src="https://1.bp.blogspot.com/-4RB9RuM_tSE/V4ElBOLGB2I/AAAAAAAABT0/qKvVm789SBQmNjvcCYnG1u3NEVNXjFjhgCLcB/s640/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA.PNG" /></span></a><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">Как видим, процесс состоит из 5 шагов.</span><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">2. На первом шаге выбираем аккаунт.</span><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">3. На втором шаге, нас просят проверить данные (настройки) AdSense. Эти настройки можно будет изменить позже (на странице настроек в аккаунте AdMob). Проверяем и идём на следующий шаг</span><br />
+<span style="font-size: large;"><br /></span>
+<a href="https://2.bp.blogspot.com/-01NEnJC7Zt0/V4Elk1213tI/AAAAAAAABT8/6WFwgDl3gL0VwBbAFKbYMEEbAaA5HxMpgCLcB/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA2.PNG"><span style="font-size: large;"><img border="0" src="https://2.bp.blogspot.com/-01NEnJC7Zt0/V4Elk1213tI/AAAAAAAABT8/6WFwgDl3gL0VwBbAFKbYMEEbAaA5HxMpgCLcB/s640/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA2.PNG" /></span></a><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">4. На третьем шаге также проверяем данные AdWords и идём дальше</span><br />
+<span style="font-size: large;"><br /></span>
+<a href="https://3.bp.blogspot.com/-MrWATxFHbwI/V4EltVMgFSI/AAAAAAAABUA/CdIbZFM1MZgMN6WQ7n_VWEIToP30Utc5wCLcB/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA3.PNG"><span style="font-size: large;"><img border="0" src="https://3.bp.blogspot.com/-MrWATxFHbwI/V4EltVMgFSI/AAAAAAAABUA/CdIbZFM1MZgMN6WQ7n_VWEIToP30Utc5wCLcB/s640/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA3.PNG" /></span></a><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">5. На четвёртом шаге нас просят ознакомиться с правилами и условиями программы AdMob. Настоятельно рекомендую это сделать, в случае нарушения, ваш аккаунт может быть заблокирован. Ставим галочку и жмём кнопку «Создать аккаунт AdMob»</span><br />
+<span style="font-size: large;"><br /></span>
+<a href="https://4.bp.blogspot.com/-ZkXrz72_Et8/V4El1mIu-DI/AAAAAAAABUE/NM7utLoHOyYbHHde7y9oHExzFdblEWqbgCLcB/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA4.PNG"><span style="font-size: large;"><img border="0" src="https://4.bp.blogspot.com/-ZkXrz72_Et8/V4El1mIu-DI/AAAAAAAABUE/NM7utLoHOyYbHHde7y9oHExzFdblEWqbgCLcB/s640/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA4.PNG" /></span></a><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">6. На пятом шаге нам сообщают об успешном создании аккаунта и предлагают начать использование аккаунта. </span><br />
+<span style="font-size: large;"><br /></span>
+<a href="https://2.bp.blogspot.com/-kwg5b5LbiVA/V4El9h5YYsI/AAAAAAAABUI/IXBpQ9iKezEyHVnL9lCYYcSzHsLrMd5egCLcB/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA5.PNG"><span style="font-size: large;"><img border="0" src="https://2.bp.blogspot.com/-kwg5b5LbiVA/V4El9h5YYsI/AAAAAAAABUI/IXBpQ9iKezEyHVnL9lCYYcSzHsLrMd5egCLcB/s640/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA5.PNG" /></span></a><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">Жмём на кнопку «Начать работу», происходит перенаправление на главную страницу аккаунта <a href="https://apps.admob.com/#home">https://apps.admob.com/#home</a></span><br />
+<span style="font-size: large;"><br /></span>
+<a href="https://3.bp.blogspot.com/-U_SDOTQQt40/V4EmKpGThrI/AAAAAAAABUM/L7VYGV__4vwhr5FR63R3Amt27CvUg3HuACLcB/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA6.PNG"><span style="font-size: large;"><img border="0" src="https://3.bp.blogspot.com/-U_SDOTQQt40/V4EmKpGThrI/AAAAAAAABUM/L7VYGV__4vwhr5FR63R3Amt27CvUg3HuACLcB/s640/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA6.PNG" /></span></a><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">Создаём рекламный блок</span></div>
+<div>
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">1. Заходим в <a href="https://apps.admob.com/#home">AdMob</a>, в меню жмём «Монетизация» и попадаем вот на такую страницу. </span><br />
+<span style="font-size: large;"><br /></span>
+<a href="https://1.bp.blogspot.com/-zHeMZr2G8Bc/V4EoFC6aJUI/AAAAAAAABUc/W8b57kJDXJEWXf4VEDi83IClfErGbvGBgCLcB/s1600/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA.PNG"><span style="font-size: large;"><img border="0" src="https://1.bp.blogspot.com/-zHeMZr2G8Bc/V4EoFC6aJUI/AAAAAAAABUc/W8b57kJDXJEWXf4VEDi83IClfErGbvGBgCLcB/s640/%25D0%25A1%25D0%25BD%25D0%25B8%25D0%25BC%25D0%25BE%25D0%25BA.PNG" /></span></a><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">На этой странице мы добавляем новое (не из Гугл Плей).</span><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">Вписываем название и жмём кнопку «Выбрать», после этого нам будет предложено подтвердить выбор и перейти на следующий шаг.</span><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">2. Приложению будет выдан идентификатор и откроется второй шаг, выбрать формат объявлений: выбираем "Баннер". Вводим название блока и жмём кнопку «Сохранить».</span><br />
+<span style="font-size: large;"><br /></span>
+<span style="font-size: large;">3. Рекламному блоку будет выдан идентификатор.</span></div>
+</div>
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Определить ключевую тему приложения" duration="1">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div>
+<h3 style="text-align: left;">
+<b>Определить ключевую тему приложения и подготовить к загрузке в Google Play Console:</b></h3>
+Наше с вами приложение будет чат: «Чат для фанатов Рональдо» (Рональдо - это пример ключевой темы, вам нужно определить свою ключевую тему.<br />
+Варианты: Рональдо, Майнкрафт, Путин - это может быть компьютерная или мобильная игра, ютубер или популярная личность.<br />
+Лучшим вариантом будет то, что нравится вам и в идеале - вашим друзьям, потому что вам нужно будет заниматься этим...<br />
+<br />
+<br />
+После определения ключевой темы, свяжитесь с вашим наставником, для подготовки приложения: moneyadroid@gmail.com<br />
+<div>
 <br /></div>
 <br />
-3. Определить ключевую тему приложения<br />
+Подготовьте иконку PNG Размер: 512 х 512 пикселей.<br />
+Картинка для описания: JPEG или PNG Размер: 1024 х 500 пикселей.<br />
+Скриншоты приложения: JPEG или PNG 4 снимка экрана 720 х 1280 пикселей.<br />
+Баннер для телевизора: JPEG или PNG Размер: 1280 х 720 пикселей.<br />
 <br />
 <br />
-4. Подготовить приложение к загрузке в Google Play Console<br />
-<br />
-<br />
-5. Получить приложение<br />
-<br />
-<br />
-6. Загрузить приложение в Google Play Console<br />
-<br />
-<br />
-7. Создать YouTube канал по ключевой теме<br />
-<br />
-<br />
-8. Зарегистрировать Yandex Cloud<br />
-<br />
-<br />
-9. Настроить Yandex Cloud</div>
+Заголовок: Имя вашего приложения в Google Play - 50 символов</div>
+<div>
+Вы можете добавить одно локализованное имя приложения для языка</div>
 <div>
 <br />
-<br />
-10. Запустить трансляцию с Yandex Cloud на YouTube<br />
-<br />
-<br />
-11. Запустить постинг в приложение</div>
+Короткое описание: Первый текст, который увидят пользователи, при просмотре подробной информации о приложении на его странице в Google Play - 80 символов&nbsp;</div>
+<div>
+<br /></div>
+<div>
+Пользователи смогут развернуть этот текст для просмотра полной версии описания<br />
+Полное описание: Подробное описание приложения в Google Play - 4000 символов<br />
+<br /></div>
+</div>
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Получить приложение" duration="5">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div>
+<h3 style="text-align: left;">
+<span style="font-size: small; font-weight: 400;">Напишите наставнику: moneyadroid@gmail.com</span></h3>
 </div>
 </div>
-		</div>
-	</section>
-	<!-- End Sample Area -->
 
-    <!-- footer start -->
-    <footer class="footer">
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-© 2020 <a href="/moneyandroid" target="_blank">Деньги Андроид</a> <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="/moneyandroid/pp" target="_blank">Партнерская программа</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--/ footer end  -->
 
-    <!-- JS here -->
-    <script src="/moneyandroid/js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="/moneyandroid/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="/moneyandroid/js/popper.min.js"></script>
-    <script src="/moneyandroid/js/bootstrap.min.js"></script>
-    <script src="/moneyandroid/js/owl.carousel.min.js"></script>
-    <script src="/moneyandroid/js/isotope.pkgd.min.js"></script>
-    <script src="/moneyandroid/js/ajax-form.js"></script>
-    <script src="/moneyandroid/js/waypoints.min.js"></script>
-    <script src="/moneyandroid/js/jquery.counterup.min.js"></script>
-    <script src="/moneyandroid/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/moneyandroid/js/scrollIt.js"></script>
-    <script src="/moneyandroid/js/jquery.scrollUp.min.js"></script>
-    <script src="/moneyandroid/js/wow.min.js"></script>
-    <script src="/moneyandroid/js/nice-select.min.js"></script>
-    <script src="/moneyandroid/js/jquery.slicknav.min.js"></script>
-    <script src="/moneyandroid/js/jquery.magnific-popup.min.js"></script>
-    <script src="/moneyandroid/js/plugins.js"></script>
-    <script src="/moneyandroid/js/gijgo.min.js"></script>
+      </google-codelab-step>
+    
+      <google-codelab-step label="Загрузить приложение в Google Play Console" duration="2">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: left;">
+<b>Загрузить приложение в Google Play Console</b></h3>
+<h3 style="text-align: left;">
+<div style="font-size: medium; font-weight: 400;">
+<div>
+</div>
+</div>
+<div style="font-size: medium; font-weight: 400;">
+<b><br /></b></div>
+<div style="font-size: medium; font-weight: 400;">
+<b>Языки и переводы</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<b><br /></b>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Вы также можете добавить перевод информации вашего приложения в список деталей магазина, а также снимки экрана на других языках и другие локализованные изображения.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+<img alt="" class="alignnone size-full wp-image-2874" height="313" sizes="(max-width: 539px) 100vw, 539px" src="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-25gPqV-LVmScXa18.png" srcset="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-25gPqV-LVmScXa18.png 539w, https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-25gPqV-LVmScXa18-300x174.png 300w" style="border: 0px; box-sizing: inherit; height: auto; max-width: 100%; vertical-align: middle;" width="539" /></div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Кроме того, пользователи могут просматривать автоматические переводы информации вашего приложения с помощью Google.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Переведите (за исключением армянского, романского, тагальского и зулусского), если вы не добавляете свои собственные переводы.</div>
+<b>Категоризация</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<b><br /></b>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Эта часть требует, чтобы вы выбрали соответствующий тип и категорию, к которой относится ваше приложение. В раскрывающемся меню вы можете выбрать приложение или игру для типа приложения.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+<img alt="" class="alignnone size-full wp-image-2875" height="239" sizes="(max-width: 700px) 100vw, 700px" src="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-M72TteRcid1OyRRB.png" srcset="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-M72TteRcid1OyRRB.png 700w, https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-M72TteRcid1OyRRB-300x102.png 300w" style="border: 0px; box-sizing: inherit; height: auto; max-width: 100%; vertical-align: middle;" width="700" /></div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Существуют различные категории для каждого типа приложений, доступных в магазине Play. Выберите тот, который ваше приложение подходит лучше всего.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Чтобы оценить свой контент, сначала нужно загрузить APK. Вы можете оставить этот шаг на потом.</div>
+<b>Контактная информация</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<b><br /></b>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Эта часть требует от вас ввода контактных данных, чтобы предоставить вашим клиентам доступ к поддержке вашего приложения.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Здесь вы можете добавить несколько каналов контактов, таких как электронная почта, веб-сайт и номер телефона, но указание контактного электронного адреса обязательно для публикации приложения.</div>
+<b>Политика конфиденциальности</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<b><br /></b>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Для приложений, которые запрашивают доступ к конфиденциальным пользовательским данным или разрешениям, вам необходимо ввести всеобъемлющую политику конфиденциальности, которая эффективно раскрывает, как ваше приложение собирает, использует и передает эти данные.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Вы должны добавить URL-ссылку на вашу политику конфиденциальности в вашем списке магазинов и в вашем приложении. Убедитесь, что ссылка активна и соответствует вашему приложению.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Вы закончили со списком магазинов. Нажмите «Сохранить черновик», чтобы сохранить свои данные. Вы всегда можете пропустить некоторые шаги и вернуться к ним позже, прежде чем опубликовать свое приложение.</div>
+<b>Загрузить APK в релиз приложения</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<b><br /></b>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Теперь, когда вы подготовили почву для окончательной загрузки своего приложения, пришло время выкопать ваш APK-файл.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Пакет Android Package (или APK, сокращенно) — это формат файла, используемый операционной системой Android для распространения и установки приложений. Проще говоря, ваш файл APK содержит все элементы, необходимые для того, чтобы ваше приложение действительно работало на устройстве.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Google предлагает вам несколько способов загрузки и выпуска вашего APK. Однако перед загрузкой файла необходимо создать выпуск приложения.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Чтобы создать релиз, выберите приложение, созданное на шаге 3. Затем в меню слева перейдите к «Управление релизами» → «Релизы приложений».</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Здесь вам нужно выбрать тип релиза, в который вы хотите загрузить свою первую версию приложения. Вы можете выбрать между внутренним тестом, закрытым тестом, открытым тестом и производственным выпуском.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Первые три релиза позволяют вам протестировать ваше приложение среди избранной группы пользователей, прежде чем оно станет доступным для всех.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Это более безопасный вариант, поскольку вы можете проанализировать результаты теста и оптимизировать или исправить свое приложение соответствующим образом, если необходимо, прежде чем распространять его среди всех пользователей.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Однако, если вы создадите производственную версию, ваша загруженная версия приложения станет доступной для всех в странах, в которых вы решите ее распространять.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Выбрав опцию, нажмите «Создать релиз».</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Далее, следуйте инструкциям на экране, чтобы добавить файлы APK, назовите и опишите свой выпуск.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+<img alt="" class="alignnone size-full wp-image-2876" height="530" sizes="(max-width: 646px) 100vw, 646px" src="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-xejriuXWag0Fydbf.png" srcset="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-xejriuXWag0Fydbf.png 646w, https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-xejriuXWag0Fydbf-300x246.png 300w" style="border: 0px; box-sizing: inherit; height: auto; max-width: 100%; vertical-align: middle;" width="646" /></div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+После того, как вы закончите, нажмите Сохранить.</div>
+<b>Предоставьте соответствующий рейтинг контента</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<br />
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Если вы не назначите оценку своему приложению, оно будет указано как «Без рейтинга». Приложения без рейтинга могут быть удалены из Google Play.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Чтобы оценить свое приложение, вам необходимо заполнить анкету для оценки контента. Вы можете получить к нему доступ, выбрав свое приложение в консоли Play и перейдя к пункту «Наличие магазина» — «Рейтинг контента» в левом меню.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Убедитесь, что вы вводите точную информацию. Искажение содержания вашего приложения может привести к приостановке или удалению из Play Store.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Соответствующий рейтинг контента также поможет вам найти нужную аудиторию, что в конечном итоге повысит уровень вашей вовлеченности.</div>
+<b>Установите цену и распределение</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<br />
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Прежде чем вы сможете заполнить детали, требуемые на этом шаге, вам необходимо определить стратегию монетизации вашего приложения.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Как только вы узнаете, как ваше приложение будет зарабатывать деньги, вы можете начать и настроить свое приложение как бесплатное или платное.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+<img alt="" class="alignnone size-full wp-image-2877" height="368" sizes="(max-width: 700px) 100vw, 700px" src="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-zCPRhmC4DJ3rjodA.png" srcset="https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-zCPRhmC4DJ3rjodA.png 700w, https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-zCPRhmC4DJ3rjodA-300x158.png 300w, https://ip-calculator.ru/blog/wp-content/uploads/2019/06/0-zCPRhmC4DJ3rjodA-325x170.png 325w" style="border: 0px; box-sizing: inherit; height: auto; max-width: 100%; vertical-align: middle;" width="700" /></div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Помните, что вы всегда можете изменить свое приложение с платного на бесплатное позже, но вы не можете изменить бесплатное приложение на платное.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Для этого вам нужно создать новое приложение и установить его цену.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Вы также можете выбрать страны, в которых вы хотите распространять свое приложение, и разрешить распространение на определенные устройства и программы Android.</div>
+<b>Выпуск релиза для публикации вашего приложения</b></div>
+<div style="font-size: medium; font-weight: 400;">
+<br />
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Вы почти закончили. Последний шаг включает проверку и развертывание вашего релиза после того, как вы позаботились обо всем остальном.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Перед просмотром и выпуском релиза убедитесь, что рядом с разделами со списком магазинов, рейтингом контента, ценообразованием и распространением вашего приложения имеется зеленая галочка.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Убедившись, что вы ввели эти данные, выберите свое приложение и перейдите к «Управление выпусками» — «Выпуски приложений». Нажмите «Редактировать релиз» рядом с нужным релизом и просмотрите его.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Затем нажмите «Обзор», чтобы перейти на экран «Обзор и выпуск». Здесь вы можете увидеть, есть ли какие-либо проблемы или предупреждения, которые вы могли пропустить.</div>
+<div style="background-color: white; box-sizing: inherit; color: #494949; font-family: &quot;open sans&quot;, arial, sans-serif; font-size: 15px; margin-bottom: 1rem;">
+Наконец, выберите «Подтвердить развертывание». Это также опубликует ваше приложение для всех пользователей в ваших целевых странах в Google Play.</div>
+</div>
+</h3>
+</div>
 
-    <!--contact js-->
-    <script src="/moneyandroid/js/contact.js"></script>
-    <script src="/moneyandroid/js/jquery.ajaxchimp.min.js"></script>
-    <script src="/moneyandroid/js/jquery.form.js"></script>
-    <script src="/moneyandroid/js/jquery.validate.min.js"></script>
-    <script src="/moneyandroid/js/mail-script.js"></script>
 
-    <script src="/moneyandroid/js/main.js"></script>
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Создать YouTube канал по ключевой теме" duration="1">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3>
+Создать YouTube канал по ключевой теме:</h3>
+<h3 style="text-align: left;">
+<div style="font-size: medium; font-weight: 400;">
+Для ведения трансляции чата и раскрутке приложения</div>
+</h3>
+<h3 style="text-align: left;">
+</h3>
+</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Зарегистрировать Yandex Cloud пробный период" duration="10">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3>
+Зарегистрировать Yandex Cloud пробный период:&nbsp;</h3>
+<h3>
+<div style="font-size: medium; font-weight: 400;">
+Для ведения трансляции чата и раскрутке приложения:&nbsp;<a href="https://cloud.yandex.ru/docs/free-trial/concepts/quickstart" rel="nofollow" target="_blank">инструкция</a></div>
+</h3>
+<h3 style="text-align: left;">
+</h3>
+<h3 style="text-align: left;">
+</h3>
+</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Настроить Yandex Cloud" duration="10">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3>
+Настроить Yandex Cloud:</h3>
+<h3>
+<div style="font-size: medium; font-weight: 400;">
+Напишите наставнику: moneyadroid@gmail.com</div>
+</h3>
+<h3>
+</h3>
+<h3 style="text-align: left;">
+</h3>
+<h3 style="text-align: left;">
+</h3>
+</div>
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Запустить трансляцию с Yandex Cloud на YouTube" duration="5">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3>
+Запустить трансляцию с Yandex Cloud на YouTube:</h3>
+<h3>
+<div style="font-size: medium; font-weight: 400;">
+Для ведения трансляции чата и раскрутке приложения</div>
+</h3>
+<h3>
+</h3>
+<h3>
+</h3>
+<h3 style="text-align: left;">
+</h3>
+<h3 style="text-align: left;">
+</h3>
+</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Запустить постинг в приложение" duration="5">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3>
+Запустить постинг в приложение:</h3>
+<h3>
+<div style="font-size: medium; font-weight: 400;">
+</div>
+<div style="font-size: medium; font-weight: 400;">
+Создать активность чата, для вовлечения аудитории.</div>
+</h3>
+<h3>
+</h3>
+<h3>
+</h3>
+<h3>
+</h3>
+<h3 style="text-align: left;">
+</h3>
+<h3 style="text-align: left;">
+</h3>
+</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Поздравляем!" duration="0">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3>
+<div style="font-size: medium; font-weight: 400;">
+Спасибо за участие в группе.</div>
+<div style="font-size: medium; font-weight: 400;">
+<br /></div>
+<div style="font-size: medium; font-weight: 400;">
+Инструкция будет пополнятся и улучшаться, заглядывайте, делитесь успехами и наблюдениями...</div>
+<div style="font-size: medium; font-weight: 400;">
+<br /></div>
+<div style="font-size: medium; font-weight: 400;">
+Если появляются вопросы или предложения, пишите на почту: moneyadroid@gmail.com.</div>
+</h3>
+<h3>
+</h3>
+<h3>
+</h3>
+<h3>
+</h3>
+<h3>
+</h3>
+<h3 style="text-align: left;">
+</h3>
+<h3 style="text-align: left;">
+</h3>
+</div>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+	
+<script type="text/javascript">
+    document.ondragstart = noselect;
+    // запрет на перетаскивание
+    document.onselectstart = noselect;
+    // запрет на выделение элементов страницы
+    document.oncontextmenu = noselect;
+    // запрет на выведение контекстного меню
+    function noselect() {return false;}
+</script>
+
+
 </body>
 
 </html>
